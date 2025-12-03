@@ -18,7 +18,7 @@ export function Hero({ setCurrentPage }: HeroProps) {
       {/* Animated Background */}
       <div className="absolute inset-0">
         <video
-          src="../../assets/cars_video.mp4"
+          src="/cars_video.mp4"
           className="w-full h-full object-cover"
           autoPlay
           muted
